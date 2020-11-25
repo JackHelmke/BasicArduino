@@ -2,6 +2,7 @@
 
 ## Hello Arduino
 
+```
 //Jack Helmke
 //November 24, 2020
 //This code tells an LED to blink on and off every second.
@@ -21,6 +22,9 @@ void loop() {
     digitalWrite(led, LOW);   //Turns the led off
     delay(1000);              //Waits a second before repeating
 }
+
+
+```
 
 It was fun to get started coding! It's tricky how precise you have to be with some things though, even on a small assignment like this.
 
