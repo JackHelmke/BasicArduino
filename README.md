@@ -107,3 +107,38 @@ void loop() {
 This was hard, but it was really cool to be able to directly use what I figured out last time to get the last part working! I'm enjoying doing the Arduino stuff so far, even though it's pretty tough sometimes.
 
 [Code Link](https://create.arduino.cc/editor/jhelmke83/f56ff924-f2a0-46f3-85d8-90f9d3938f3c)
+
+## Button-Activated LED
+
+```
+
+int ledPin = 2;
+int buttonPin = 12;
+int read = 0;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(ledPin, OUTPUT);
+  pinMode(buttonPin, INPUT);
+
+}
+
+void loop() {
+   read = digitalRead(buttonPin);
+   if(read == HIGH){
+    Serial.println("Blink");
+    digitalWrite(ledPin, HIGH);
+    delay(250);
+    digitalWrite(ledPin, LOW);
+    delay(250);
+  } else {
+    digitalWrite(ledPin, LOW);
+  }
+
+}
+
+```
+
+It was tricky to get the button working, and it didn't help that I fell for the most classic arduino mistake ever- misplacing a wire and then spending a ton of time figuring out what's wrong with your code! I'll definitely be triple-checking all of my wiring from now on!
+
+[Arduino Code](https://create.arduino.cc/editor/jhelmke83/97cff2c7-f1ce-4f6e-b8c9-39173ffa4b29)
