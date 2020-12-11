@@ -146,3 +146,7 @@ It was tricky to get the button working, and it didn't help that I fell for the 
 ## Two Buttons, Two LEDs
 
 <img src="images/TwoButton.png" alt="TwoButton" width="128" height="128">
+
+This (suprisingly) wasn't too hard! I guess that's because we were mostly recycling things we learned earlier. It was still cool to be able to put most of what we've learned so far into one project.
+
+[Arduino Code](https://create.arduino.cc/editor/jhelmke83/00d921f5-f089-4148-bd7c-b79a616f7713)
