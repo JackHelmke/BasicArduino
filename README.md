@@ -145,3 +145,4 @@ It was tricky to get the button working, and it didn't help that I fell for the 
 
 ## Two Buttons, Two LEDs
 
+<img src="images/TwoButton.png" alt="TwoButton" width="128" height="128">
