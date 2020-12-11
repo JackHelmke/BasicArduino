@@ -142,3 +142,6 @@ void loop() {
 It was tricky to get the button working, and it didn't help that I fell for the most classic arduino mistake ever- misplacing a wire and then spending a ton of time figuring out what's wrong with your code! I'll definitely be triple-checking all of my wiring from now on!
 
 [Arduino Code](https://create.arduino.cc/editor/jhelmke83/97cff2c7-f1ce-4f6e-b8c9-39173ffa4b29)
+
+## Two Buttons, Two LEDs
+
