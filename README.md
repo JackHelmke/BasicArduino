@@ -150,3 +150,11 @@ It was tricky to get the button working, and it didn't help that I fell for the 
 This (suprisingly) wasn't too hard! I guess that's because we were mostly recycling things we learned earlier. It was still cool to be able to put most of what we've learned so far into one project.
 
 [Arduino Code](https://create.arduino.cc/editor/jhelmke83/00d921f5-f089-4148-bd7c-b79a616f7713)
+
+## Servo Control
+
+<img src="images/ServoControl.png" alt="ServoControl" width="128" height="128">
+
+This was intimidating, but once I got to understand the way the servo commands worked, there wasn't that much difficult code involved. I don't want to know how hard it would be without the servo library though!
+
+https://create.arduino.cc/editor/jhelmke83/31cd572a-5198-47c7-bfce-661cb0b8d0cd
