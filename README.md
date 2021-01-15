@@ -157,4 +157,4 @@ This (suprisingly) wasn't too hard! I guess that's because we were mostly recycl
 
 This was intimidating, but once I got to understand the way the servo commands worked, there wasn't that much difficult code involved. I don't want to know how hard it would be without the servo library though!
 
-https://create.arduino.cc/editor/jhelmke83/31cd572a-5198-47c7-bfce-661cb0b8d0cd
+[Code Link](https://create.arduino.cc/editor/jhelmke83/31cd572a-5198-47c7-bfce-661cb0b8d0cd)
